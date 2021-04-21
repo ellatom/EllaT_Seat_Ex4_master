@@ -11,7 +11,7 @@ export default class AnimalFactory {
             if(classAnimal !== undefined)//if invalid object wont create it
             {
                 let createdAnimal = new classAnimal(aData[item].type, aData[item].weight);
-                results.push(createdAnimal.elementAnimal);
+                results.push(createdAnimal.element);
             }
         }
         return results;

@@ -9,12 +9,12 @@ export default class Rabbit extends Animal {
     }
     printDescription()
     {
-        this.elementAnimal.childNodes[1].innerText = "The Rabbit Speed is:" + this.speed + "kg";
+        this.element.childNodes[1].innerText = "The Rabbit Speed is:" + this.speed + "kg";
        
     }
 
     showImage(){
-        this.elementAnimal.childNodes[0].src = "./images/img02.jpg";
+        this.element.childNodes[0].src = "./images/img02.jpg";
     }
 
 }

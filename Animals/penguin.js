@@ -9,11 +9,11 @@ export default class Penguin extends Animal {
     }
     printDescription()
     {
-        this.elementAnimal.childNodes[1].innerText = "The Penguine swimming speed is:" + this.swimmingSpeed + "kg";
+        this.element.childNodes[1].innerText = "The Penguine swimming speed is:" + this.swimmingSpeed + "kg";
     }
 
     showImage(){
-        this.elementAnimal.childNodes[0].src = "./images/img03.jpg";
+        this.element.childNodes[0].src = "./images/img03.jpg";
     }
 
 }

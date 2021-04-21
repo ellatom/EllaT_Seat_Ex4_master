@@ -10,11 +10,11 @@ export default class Elephant extends Animal {
 
     printDescription()
     {
-        this.elementAnimal.childNodes[1].innerText = "The Elephant Weight is:" + this.weight + "kg";
+        this.element.childNodes[1].innerText = "The Elephant Weight is:" + this.weight + "kg";
     }
 
     showImage(){
-        this.elementAnimal.childNodes[0].src = "./images/img01.jpg";
+        this.element.childNodes[0].src = "./images/img01.jpg";
     }
         
 

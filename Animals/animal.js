@@ -2,7 +2,7 @@ export default class Animal {
 
     constructor(typeA) {
         this.typeA =typeA;
-        this.elementAnimal = this.createElement();
+        this.createElement();
     }
 
     createElement() {
