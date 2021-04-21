@@ -1,6 +1,6 @@
 let aData= [
     {
-        "type": "elephant",
+        "type": "elephant1",
         "weight": 660
     },
     {

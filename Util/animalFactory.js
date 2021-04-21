@@ -8,8 +8,11 @@ export default class AnimalFactory {
         for (let item = 0; item < aData.length; item++) {
             let animalClass = this.capitalizeFirstLetter(aData[item].type);
             let classAnimal= dynamicClass(animalClass);
-            let createdAnimal = new classAnimal(aData[item].type, aData[item].weight);
-            results.push(createdAnimal.elementAnimal);
+            if(classAnimal !== undefined)//if invalid object wont create it
+            {
+                let createdAnimal = new classAnimal(aData[item].type, aData[item].weight);
+                results.push(createdAnimal.elementAnimal);
+            }
         }
         return results;
     }
