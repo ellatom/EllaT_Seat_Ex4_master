@@ -1,9 +1,9 @@
 import Animal from './animal.js'
 export default class Elephant extends Animal {
 
-    constructor(type,weight) {
+    constructor(type, properties) {
         super(type);
-        this.weight = weight;
+        this.weight = properties;
         this.printDescription()
         this.showImage();
     }

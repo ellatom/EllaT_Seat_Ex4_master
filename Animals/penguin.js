@@ -1,9 +1,9 @@
 import Animal from './animal.js'
 export default class Penguin extends Animal {
 
-    constructor(type,swimmingSpeed) {
+    constructor(type,properties) {
         super(type);
-        this.swimmingSpeed = swimmingSpeed
+        this.swimmingSpeed = properties
         this.printDescription()
         this.showImage();
     }

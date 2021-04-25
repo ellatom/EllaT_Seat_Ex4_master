@@ -1,9 +1,9 @@
 import Animal from './animal.js'
 export default class Rabbit extends Animal {
 
-    constructor(type,speed) {
+    constructor(type,properties) {
         super(type);
-        this.speed = speed;
+        this.speed = properties;
         this.printDescription();
         this.showImage();
     }
