@@ -10,7 +10,7 @@ export default class AnimalFactory {
             let classAnimal= dynamicClass(animalClass);
             if(classAnimal !== undefined)//if invalid object wont create it
             {
-                let createdAnimal = new classAnimal(aData[item].type, aData[item].weight ||  aData[item].speed || aData[item].swimmingSpeed);
+                let createdAnimal = new classAnimal(aData[item].type, aData[item]);
                 results.push(createdAnimal.element);
             }
         }

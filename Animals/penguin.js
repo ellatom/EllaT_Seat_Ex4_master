@@ -3,7 +3,7 @@ export default class Penguin extends Animal {
 
     constructor(type,properties) {
         super(type);
-        this.swimmingSpeed = properties
+        this.swimmingSpeed = properties.swimmingSpeed
         this.printDescription()
         this.showImage();
     }

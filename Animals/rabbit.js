@@ -3,7 +3,7 @@ export default class Rabbit extends Animal {
 
     constructor(type,properties) {
         super(type);
-        this.speed = properties;
+        this.speed = properties.speed;
         this.printDescription();
         this.showImage();
     }

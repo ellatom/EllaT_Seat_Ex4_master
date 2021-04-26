@@ -3,7 +3,7 @@ export default class Elephant extends Animal {
 
     constructor(type, properties) {
         super(type);
-        this.weight = properties;
+        this.weight = properties.weight;
         this.printDescription()
         this.showImage();
     }
